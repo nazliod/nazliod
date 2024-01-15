@@ -1,13 +1,13 @@
-graph TD
-A[Websitesine Giriş] -->|Oturum Aç| B[Oturum Aç]
-B -->|Kullanıcı Adı, Şifre| C[Kullanıcı Adı, Şifre]
-C -->|Giriş Yap| D[Giriş Yap]
-D -->|Girişimci İlanları| E[Girişimci İlanları]
-E -->|Post Title, Post İçerikleri| F[Post Title, Post İçerikleri]
-F -->|Geri| G[Geri]
-E -->|Anasayfa| H[Anasayfa]
-H -->|İlanlarım| I[İlanlarım]
-I -->|İlan Oluştur| J[İlan Oluştur]
-J -->|Geri| K[Geri]
-H -->|Kullanıcı Adı| L[Kullanıcı Adı]
-H -->|Oturumu Kapat| M[Oturumu Kapat]
+graph TD;
+    A[Websitesine Giriş] -- Oturum Aç --> B[Oturum Aç];
+    B -- Kullanıcı Adı, Şifre --> C[Kullanıcı Adı, Şifre];
+    C -- Giriş Yap --> D[Giriş Yap];
+    D -- Girişimci İlanları --> E[Girişimci İlanları];
+    E -- Post Title, Post İçerikleri --> F[Post Title, Post İçerikleri];
+    F -- Geri --> G[Geri];
+    E -- Anasayfa --> H[Anasayfa];
+    H -- İlanlarım --> I[İlanlarım];
+    I -- İlan Oluştur --> J[İlan Oluştur];
+    J -- Geri --> K[Geri];
+    H -- Kullanıcı Adı --> L[Kullanıcı Adı];
+    H -- Oturumu Kapat --> M[Oturumu Kapat];
